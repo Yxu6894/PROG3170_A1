@@ -1,0 +1,6 @@
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\bin\Debug\GreetingService.dll
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\bin\Debug\GreetingService.pdb
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\obj\Debug\GreetingService.csproj.AssemblyReference.cache
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\obj\Debug\GreetingService.csproj.CoreCompileInputs.cache
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\obj\Debug\GreetingService.dll
+C:\Users\y247x\OneDrive - Conestoga College\Desktop\PROG3170_A1\GreetingService\obj\Debug\GreetingService.pdb
