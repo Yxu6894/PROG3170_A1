@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GreetingService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GreetingService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="GreetingRequest">
+    <xs:sequence>
+      <xs:element name="Language" nillable="true" type="xs:string" />
+      <xs:element name="TimeOfDay" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tone" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreetingRequest" nillable="true" type="tns:GreetingRequest" />
+  <xs:complexType name="GreetingResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:GreetingRequest">
+        <xs:sequence>
+          <xs:element name="Greeting" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GreetingResponse" nillable="true" type="tns:GreetingResponse" />
+</xs:schema>
